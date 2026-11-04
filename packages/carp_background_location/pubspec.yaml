@@ -9,7 +9,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  background_locator_2: ^2.0.6
+  # Vendored copy with a Kotlin 2.2 fix (upstream 2.0.6 is unmaintained)
+  background_locator_2:
+    path: ../background_locator_2
 
 dev_dependencies:
   flutter_test:
